@@ -45,3 +45,7 @@ li {
   justify-content: space-between;
   border-radius: 6px;
 }
+button:disabled {
+  background-color: #64748b;
+  cursor: not-allowed;
+}

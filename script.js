@@ -30,3 +30,7 @@ todos.splice(index, 1);
 
 renderTodos();
 }
+input.addEventListener("input", ()=>{
+    const value = input.value.trim();
+    addBtn.disabled = value ==="";
+});
